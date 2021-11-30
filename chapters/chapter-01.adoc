@@ -1,0 +1,16 @@
+// Start each chapter with its title.
+== First Chapter
+
+This is the first chapter.
+It includes some highlighted source code:
+
+[source,go,highlight=5-7]
+----
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello world!")
+}
+----

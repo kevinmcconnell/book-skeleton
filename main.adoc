@@ -1,0 +1,48 @@
+// Basic info: title, author, etc.
+= The Book: A template for a new project
+:author: Author Name
+:email: author@example.com
+:revnumber: v0.1
+:description: This is the description of your book
+//
+// Set the cover image
+:front-cover-image: image:cover.svg[fit=cover]
+//
+// Don't display a title page, since we have a cover image.
+:notitle:
+//
+// Render as a book; each chapter will get its own section.
+:doctype: book
+//
+// Prefix nmbered chapter titles with "Chapter"
+:chapter-label: Chapter
+//
+// Add a table of contents
+:toc: left
+:toclevels: 2
+:toc-title: Table of Contents
+//
+// Number the first 2 levels of headings.
+:sectnumlevels: 2
+//
+// Hide the scheme from links in the text.
+// e.g. a link to https://github.com/ should appear as github.com/.
+:hide-uri-scheme:
+//
+// Use rouge for source highlighting, and set the style.
+:source-highlighter: rouge
+:rouge-style: github
+:tabsize: 4
+
+// -- Book content includes --
+
+// Include the non-numbered sections (preface, introduction, etc).
+include::chapters/preface.adoc[]
+
+include::chapters/introduction.adoc[]
+
+// Enable chapter numbering.
+:sectnums:
+
+// Include the numbered chapters.
+include::chapters/chapter-01.adoc[]

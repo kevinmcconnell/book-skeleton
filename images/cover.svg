@@ -1,0 +1,14 @@
+<svg viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    text {
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    </style>
+
+    <rect x="0" y="0" width="100%" height="100%" fill="#071115" stroke="#fff" stroke-width="8" />
+    <rect x="0" y="100" width="210" height="40" fill="#071115" stroke="none" />
+    <rect x="85" y="136" width="40" height="4" fill="#900" stroke="none" />
+    <text x="105" y="125" text-anchor="middle" fill="#fff">SAMPLE BOOK</text>
+</svg>
