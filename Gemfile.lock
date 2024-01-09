@@ -66,6 +66,7 @@ GEM
     ttfunk (1.7.0)
 
 PLATFORMS
+  x86_64-darwin-19
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -75,4 +76,4 @@ DEPENDENCIES
   rouge
 
 BUNDLED WITH
-   2.2.32
+   2.4.22

@@ -16,9 +16,9 @@ font:
       normal: roboto-normal.ttf
       bold: roboto-bold.ttf
       italic: roboto-italic.ttf
-      bold-italic: roboto-bold-italic.ttf
+      bold_italic: roboto-bold-italic.ttf
     Bitter:
       normal: bitter-normal.ttf
       bold: bitter-bold.ttf
       italic: bitter-italic.ttf
-      bold-italic: bitter-bold-italic.ttf
+      bold_italic: bitter-bold-italic.ttf
