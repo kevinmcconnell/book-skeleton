@@ -2,6 +2,7 @@
 == First Chapter
 
 This is the first chapter.
+We have *bold*, _italic_ and *_bold_italic_* fonts.
 It includes some highlighted source code:
 
 [source,go,highlight=5-7]
